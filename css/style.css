@@ -1,0 +1,41 @@
+@import url(/css/responsive.css);
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Tilt+Neon&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --purple: #7D45E5;
+}
+.navbar{
+    background: #ffffff;
+    border-bottom: 1px solid var(--purple);
+    font-family: 'Tilt Neon', sans-serif;   
+}
+.navbar-nav{
+    text-align: center;
+}
+.navbar-brand{
+    color: var(--purple) !important;
+}
+ul li a:hover{
+    color: var(--purple) !important;    
+}
+.icone{
+    color: var(--purple);
+    font-size: 2rem;
+}
+header{
+    background: linear-gradient(90deg, rgba(125,69,229,1) 0%, rgba(251,179,46,1) 100%);
+    height: 100vh;
+}
+.container{
+    background: white;
+    padding-top: 5rem;
+}
+h1{
+    font-family: 'Tilt Neon', sans-serif;
+}
+h3{
+    font-family: 'Oswald', sans-serif;
+}

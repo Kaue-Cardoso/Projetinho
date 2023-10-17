@@ -1,0 +1,21 @@
+@media (min-width: 992px){
+    .navbar-brand{
+        font-size: 1.5rem !important;
+    }
+    ul{
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    ul li a{
+        font-size: 1.5rem !important;
+    }
+    .navbar{
+        padding: 0 !important;
+        height: 4rem;
+    }
+}
+@media (max-width: 991px){
+    .navbar-toggler {
+        border: none !important;
+    }
+}
